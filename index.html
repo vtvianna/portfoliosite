@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Fim Google Fonts -->
+    <!--BootsTrap Icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Fim BootsTrap Icons-->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    
+<header>
+    <div class="interface">
+        <div class="logo">
+            <a href="#">
+                <img class="imagemlogo" src="images/logo.png" alt="Logo do projeto">
+            </a>
+        </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="https://vtvianna.github.io/portfolio/">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    
+                </ul>
+            </nav>
+            
+            <div class="trilho" id="trilho">
+            <div class="indicador"></div>
+        </div>
+                <div class="btn-contato">
+                    <a href="#">
+                        <button>Contato</button>
+                    </a>    
+                </div><!--btn-contato-->
+                
+                <div class="btn-abrir-menu" id="btn-menu">
+                    <i class="bi bi-list"></i>
+                </div>
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-fechar">
+                        <i class="bi bi-x-lg"></i>
+                    </div><!--btn-fechar-->
+                    <nav>
+                <ul>
+                    <li><a href="https://vtvianna.github.io/portfolio/">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>                
+                    
+                </ul>
+            </nav>
+                </div><!--Menu-mobile-->
+                <div class="overlay-menu"></div>
+
+
+    </div><!--interface-->
+</header>
+
+<main>
+    <section class="topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-principal">
+                <h1>Programação é a melhor alquimia da mente humana. Transforma pensamentos em realidade.</h1>
+                <p>O desenvolvedor front-end é o artista digital, responsável por traduzir o design em código e dar vida a um site ou aplicativo. Só por que alguma coisa não faz o que você planejou que ela fizesse não quer dizer que ela seja inútil.</p>
+                <div class="btn-contato">
+                    <a href="#">
+                        <button>Entre em contato</button>
+                    </a>
+                </div>
+                </div><!--txt-principal-->
+                <div class="img-topo">
+                    <img class="pessoa" src="images/pessoa.png" alt="">
+            </div><!--img-topo-->
+          </div><!--Flex-->  
+        </div><!--interface-->
+    </section><!--Topo do site-->
+
+    <section id="especialidades" class="especialidades">
+        <div class="interface">
+            <h2 class="titulo">Minhas <span>Especialidades.</span></h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <i class="bi bi-filetype-html"></i>
+                    <h3>HTML</h3>
+                    <p>Linguagem de marcação usada para estruturar o conteúdo de páginas web, definindo elementos como textos, imagens e links.</p>
+                </div><!--especialidades-box-->
+                <div class="especialidades-box">
+                   <i class="bi bi-css"></i>
+                    <h3>CSS</h3>
+                    <p>Linguagem de estilo que permite personalizar a aparência de páginas web, controlando cores, fontes, layouts e animações.</p>
+                </div><!--especialidades-box-->
+                 <div class="especialidades-box">
+                    <i class="bi bi-javascript"></i>
+                    <h3>JavaScript</h3>
+                    <p>Linguagem de programação que adiciona interatividade e dinamismo às páginas web, permitindo criar funcionalidades avançadas.</p>
+                </div><!--especialidades-box-->
+                <div class="especialidades-box">
+                    <img class="logoreact" src="images/react.png">
+                    <h3>React</h3>
+                    <p>Biblioteca JavaScript para construir interfaces de usuário reativas e componentes reutilizáveis de forma eficiente.</p>              
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADeUlEQVR4nO2WTUiUQRjHJym7Gd2KOhd16FjU3W1LUFPS8GvV9qPdtXV3zdxca2beGXUzNCRIBCuijG5FH9ZBiEhn1thuEmXQ1aiT4qVAJ17LBHVm1tf90NgfDMj6zvM8/2eeGf4A5MiRI0eOHH9BnLzGnArZcvSERGGVc81ld7gX6noCR4AG8xvzW1mcht4WaX5zIUZeSIPDeOdhxMgv2eZrbw1R5PJIRVREmj7pBJxt83+V7S9yehZzSAUw+tMYMw4qEyBG+lUd8A5FpAIKq52iLhZqkMV2xEKuwmqXdL//XkTdfU6v6xoEut9170acfFd0QZQFfdIiSgO+WQhh3qrTfQO3lzR552T7ysNN5nioRudbLBHbBZLBiFO3qhMtTzqETdHJGhIaWBmzGgfvq06u9elVZfcNRuuSKn6xWwLmIU7fqwJW4WapgNPn3fOe3tC+pXjm3+ZvCsFCfXFpwqwpaQGLIsbJCcTIgixo+ygWdof8FM51BPhSrMpo4IPi9RLRUay6uPOY42PACoiTYVVnnLdapQJstS5R13fJ1nijpchWIxfqvn1Z2X3M6F1LxS+eQhzuR4zMyYLDMSKKvRekxZWH/dNlId8P2f+LfV6BxuQXFzM6AyfgHssC/pwCjao6FBhulz+rmhV8HNU8m50tYKP0j/TvRIxOqRJVXLm47uIrowH16HDyxcwNUgEcN0pVydpeQnFSMedr3Y/ICNQIoKdAKsGcvlIldPSEkxbQ2Kf2O5jT5yDVGNw4tBGftLTMb3R+B050HQDpAHFyU9U571CbVoDO72BGYiBdwDgswIxOK7onzoT8YiN+B8ZhAUgniBOXJZ+UhN9BcVIL0k0yPqnaCK72OzSoGx0uhNgGMgEe6zqu8kmmt7HXu5f9Tr3e70BGj2ak+H8iOH2YrE/yDKj9DuLkDsg0pkcxvYq0KNMn+b2ipMkr4Lji4nIySxN0L8gGmJF2VWebH0W1fgdzEgbZAk7CfJ1PUo4Oo1Mp8ztWwXFaYlUATrXfSZdPksz+M7BZ0PmkjPodq2BO+9Yx+91gswF1Pmm5+9Np9ztWMRh16gQYvLMGbFaggHmYkwnFxWUZ8zsp90nZ8DtWQYw8WOMEhsBWAa70SYzOZM3vWAVzEll+No0Q2GrASZiPGfmMGP04mBjcAbYikBvFkBF7tuvIkeN/5jfJ0X7S9bD3YgAAAABJRU5ErkJggg==" alt="vue-js">
+                    <h3>Vue.js</h3>
+                    <p>Framework progressivo JavaScript focado na criação de interfaces interativas e na construção de aplicações web modernas e reativas.</p>              
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box">
+                    <i class="bi bi-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Plataforma de hospedagem de código que facilita versionamento, colaboração em projetos e gerenciamento de repositórios Git.</p>              
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+        
+        </div><!--interface-->
+    </section><!--especialidades-->
+
+    <section id="sobre" class="sobre">
+        <div class="interface">
+            <div class="flex">
+             <div class="img-sobre">
+                <img class="pessoasobre" src="images/pessoa.jpg" alt="">
+             </div><!--img-sobre-->
+           <div class="txt-sobre">
+                <h2>Muito prazer,<span> sou Victor Vianna.</span></h2>
+                <p>Atualmente trabalho com atendimento ao publico, estou em busca de oportunidade profissional para fazer uma transição na minha carreira. Minhas especialidades inclui Ionic, React, JavaScript e Java.</p>
+                <p></p>
+                <div class="btn-social">
+                    <a href="https://github.com/vtvianna"><button><i class="bi bi-github"></i></button></a>
+                    <a href="https://www.linkedin.com/in/victorviannac/"><button><i class="bi bi-linkedin"></i></button></a>
+                    
+                </div><!--btn-social-->
+           </div><!--txt-sobre--> 
+           </div><!--flex-->    
+        </div><!--interface-->
+    </section><!--Sobre-->
+    
+
+        
+      
+</main>
+
+<script src="modoescuro.js"></script>
+</body>
+</html>
